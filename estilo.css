@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color:#3FC3C1; /* Para establecer el color de fondo de la página */
+  border: 5px solid #ccc; /* Añadir borde a toda la página */
+}
+
+header {
+  background-color: #333; /* Color de fondo del encabezado */
+  color: #FFFFFF; /* Color del texto */
+  padding: 20px;
+}
+p {
+color: #FFFFFF;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center
+  
+
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  
+  
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #FFFFFF; /* Color de los enlaces */
+  
+}
+
+* Estilos para la imagen */
+.imagen-ancho-pagina {
+    width: 100%;
+    height: 0%; /* Mantener la proporción */
+    display: block; /* Eliminar espacio adicional debajo de la imagen */
+
+}
+
+/* Estilos para el encabezado fijo */
+.encabezado-fijo {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #AAD2D1; /* Color de fondo del encabezado */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+    z-index: 1000; /* Asegura que el encabezado esté sobre otros elementos */
+}
+
+.encabezado-fijo nav {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0; /* Ajusta el relleno según necesites */
+}
+
+.encabezado-fijo nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.encabezado-fijo nav ul li {
+    display: inline;
+    margin-right: 20px; /* Espaciado entre elementos del menú */
+}
+
+.encabezado-fijo nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    /* Otros estilos de enlace */
+}
+
+.encabezado-fijo {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #AAD2D1 ; /* Cambia el color de fondo a tu preferencia */
+    /* Otros estilos */
+}
+
+
+
+/* Estilos para la tabla */
+.tabla-estilizada {
+    width: 100%; /* Ancho de la tabla */
+    border-collapse: collapse; /* Colapsar bordes de celdas */
+}
+
+.tabla-estilizada th, .tabla-estilizada td {
+    border: 1px solid #ddd; /* Borde de celdas */
+    padding: 8px; /* Espaciado interno */
+    text-align: left; /* Alineación de texto */
+}
+
+.tabla-estilizada th {
+    background-color: #f2f2f2; /* Color de fondo para encabezados */
+}
+
+.pie-pagina {
+    background-color:#56979F ; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    text-align: center; /* Alineación del texto */
+    padding: 20px; /* Espaciado interior */
+   
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos para el formulario */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  max-width: 100%;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 50%;
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
